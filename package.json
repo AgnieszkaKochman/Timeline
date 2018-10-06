@@ -1,0 +1,27 @@
+{
+  "name": "timeline",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get your application up and running.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgnieszkaKochman/Timeline.gitt"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/AgnieszkaKochman/Timeline/blob/master/README.md",
+  "devDependencies": {
+    "browser-sync": "^2.19.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "gulp-cssnano": "^2.1.2",
+    "jquery": "^3.2.1"
+  }
+}
