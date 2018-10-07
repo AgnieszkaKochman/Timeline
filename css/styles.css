@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400&subset=latin-ext");
+body {
+  background: url("../assets/bg.png") center center no-repeat;
+  background-size: cover; }
+
+.container-fluid {
+  width: 100%; }
+
+.container {
+  width: 100%;
+  max-width: 1077px;
+  margin: 0 auto; }
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; }
+
+.header {
+  color: #FAFAFA;
+  padding: 20px 50px; }
+
+.header__logo-wrapper {
+  width: 225px;
+  height: 225px;
+  margin: 20px auto; }
+  .header__logo-wrapper .header__logo-image {
+    width: 100%;
+    height: auto; }
+
+.header__title {
+  text-align: center;
+  font-size: 42px;
+  margin: 30px 0; }
+
+.header__description {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 26px;
+  margin: 20px 0; }
+
+@media screen and (max-width: 425px) {
+  .header {
+    padding: 20px; }
+  .header__logo-wrapper {
+    width: 180px;
+    height: 180px; }
+  .header__title {
+    text-align: center;
+    font-size: 32px;
+    margin: 30px 0; } }

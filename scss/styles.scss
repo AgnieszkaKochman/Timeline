@@ -1,0 +1,11 @@
+body {
+    background: url('../assets/bg.png') center center no-repeat;
+    background-size: cover;
+}
+
+
+@import "layout/colors";
+@import "layout/layout";
+@import "layout/typography";
+
+@import "page-elements/header";
