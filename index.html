@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Timeline</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/main.js"></script>
   </head>
   <body>
     <main class="container">
@@ -26,11 +26,45 @@
             <img class="timeline__image" src="assets/01.png" alt="timeline photo">
           </div>
           <h3 class="timeline__item-description-label">Comment</h3>
-          <textarea class="timeline__item-description-field"></textarea>
-          <span class="timeline__add-description"></span>
+          <div class="timeline__item-description">
+            <textarea class="timeline__item-description-field"></textarea>
+            <span class="timeline__add-description fa fa-check-circle"></span>
+          </div>
         </article>
+
+        <article class="timeline__item-block timeline__item-block--right">
+          <h2 class="timeline__item-title">Lorem Ipsum is simply dummy text</h2>
+          <div class="timeline__image-wrapper">
+            <img class="timeline__image" src="assets/01.png" alt="timeline photo">
+          </div>
+          <h3 class="timeline__item-description-label">Comment</h3>
+          <div class="timeline__item-description">
+            <textarea class="timeline__item-description-field"></textarea>
+            <span class="timeline__add-description fa fa-check-circle"></span>
+          </div>
+        </article>
+
+        <article class="timeline__item-block timeline__item-block--left">
+          <h2 class="timeline__item-title">Lorem Ipsum is simply dummy text</h2>
+          <h3 class="timeline__item-description-label">Comment</h3>
+          <div class="timeline__item-description">
+            <textarea class="timeline__item-description-field"></textarea>
+            <span class="timeline__add-description fa fa-check-circle"></span>
+          </div>
+        </article>
+
+        <article class="timeline__item-block timeline__item-block--right">
+          <h2 class="timeline__item-title">Lorem Ipsum is simply dummy text</h2>
+          <div class="timeline__image-wrapper">
+            <img class="timeline__image" src="assets/01.png" alt="timeline photo">
+          </div>
+        </article>
+
+        <div class="clear-both"></div>
       </section>
 
     </main>
+
+    <script src="js/main.js"></script>
   </body>
 </html>
